@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Sending_Data_in_Database.props" />
+</Project>
