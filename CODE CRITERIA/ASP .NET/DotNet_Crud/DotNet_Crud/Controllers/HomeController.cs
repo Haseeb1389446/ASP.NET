@@ -1,13 +1,13 @@
-using DotNet_Crud.Models;
+using dotnet_crud.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System.Diagnostics;
 
-namespace DotNet_Crud.Controllers
+namespace dotnet_crud.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly ApplicationDbContext _Context;
+        public readonly ApplicationDbContext _Context;
 
         public HomeController(ApplicationDbContext context)
         {
@@ -24,48 +24,50 @@ namespace DotNet_Crud.Controllers
             return View();
         }
 
-        public IActionResult SubmitData()
+        public IActionResult Insert()
         {
             return View();
         }
 
         [HttpPost]
-        public IActionResult SubmitData(Product product)
+        public IActionResult Insert(User user)
         {
-            _Context.products.Add(product);
+            _Context.users.Add(user);
             _Context.SaveChanges();
 
-            return View();
+            return RedirectToAction("Show");
         }
 
-        public IActionResult ShowData()
+        public IActionResult Show()
         {
-            var products = _Context.products.ToList();
-            return View(products);
+            var users = _Context.users.ToList();
+
+            return View(users);
         }
 
-        public IActionResult UpdateData(int id)
+        public IActionResult Update(int id)
         {
-            var products = _Context.products.Find(id);
-            return View(products);
+            var users = _Context.users.Find(id);
+
+            return View(users);
         }
 
         [HttpPost]
-        public IActionResult UpdateData(Product prod)
+        public IActionResult Update(User users)
         {
-            _Context.Entry(prod).State = EntityState.Modified;
+            _Context.Entry(users).State = EntityState.Modified;
             _Context.SaveChanges();
 
-            return View(prod);
+            return RedirectToAction("Show");
         }
 
-        public IActionResult DeleteData(int id)
+        public IActionResult Delete(int id)
         {
-            var products = _Context.products.Find(id);
-            _Context.products.Remove(products);
+            var user = _Context.users.Find(id);
+            _Context.users.Remove(user);
             _Context.SaveChanges();
 
-            return RedirectToAction("ShowData");
+            return RedirectToAction("Show");
         }
     }
 }

@@ -1,4 +1,4 @@
-using DotNet_Crud.Models;
+using dotnet_crud.Models;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);

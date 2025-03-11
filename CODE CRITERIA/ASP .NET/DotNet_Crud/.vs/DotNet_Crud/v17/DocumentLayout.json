@@ -1,22 +1,34 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\CODE CRITERIA\\ASP .NET\\DotNet_Crud\\",
+  "WorkspaceRootPath": "E:\\CODE CRITERIA\\ASP .NET\\dotnet_crud\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{941268D7-5B57-429B-8132-869457C5B2BC}|DotNet_Crud\\DotNet_Crud.csproj|e:\\code criteria\\asp .net\\dotnet_crud\\dotnet_crud\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{941268D7-5B57-429B-8132-869457C5B2BC}|DotNet_Crud\\DotNet_Crud.csproj|solutionrelative:dotnet_crud\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{67351274-1AE6-445A-BBC6-8AAC0EA11061}|dotnet_crud\\dotnet_crud.csproj|e:\\code criteria\\asp .net\\dotnet_crud\\dotnet_crud\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67351274-1AE6-445A-BBC6-8AAC0EA11061}|dotnet_crud\\dotnet_crud.csproj|solutionrelative:dotnet_crud\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{941268D7-5B57-429B-8132-869457C5B2BC}|DotNet_Crud\\DotNet_Crud.csproj|e:\\code criteria\\asp .net\\dotnet_crud\\dotnet_crud\\views\\home\\updatedata.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{941268D7-5B57-429B-8132-869457C5B2BC}|DotNet_Crud\\DotNet_Crud.csproj|solutionrelative:dotnet_crud\\views\\home\\updatedata.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{67351274-1AE6-445A-BBC6-8AAC0EA11061}|dotnet_crud\\dotnet_crud.csproj|e:\\code criteria\\asp .net\\dotnet_crud\\dotnet_crud\\views\\home\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{67351274-1AE6-445A-BBC6-8AAC0EA11061}|dotnet_crud\\dotnet_crud.csproj|solutionrelative:dotnet_crud\\views\\home\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{941268D7-5B57-429B-8132-869457C5B2BC}|DotNet_Crud\\DotNet_Crud.csproj|e:\\code criteria\\asp .net\\dotnet_crud\\dotnet_crud\\views\\home\\showdata.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{941268D7-5B57-429B-8132-869457C5B2BC}|DotNet_Crud\\DotNet_Crud.csproj|solutionrelative:dotnet_crud\\views\\home\\showdata.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{67351274-1AE6-445A-BBC6-8AAC0EA11061}|dotnet_crud\\dotnet_crud.csproj|e:\\code criteria\\asp .net\\dotnet_crud\\dotnet_crud\\views\\home\\show.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{67351274-1AE6-445A-BBC6-8AAC0EA11061}|dotnet_crud\\dotnet_crud.csproj|solutionrelative:dotnet_crud\\views\\home\\show.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{941268D7-5B57-429B-8132-869457C5B2BC}|DotNet_Crud\\DotNet_Crud.csproj|e:\\code criteria\\asp .net\\dotnet_crud\\dotnet_crud\\views\\home\\submitdata.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{941268D7-5B57-429B-8132-869457C5B2BC}|DotNet_Crud\\DotNet_Crud.csproj|solutionrelative:dotnet_crud\\views\\home\\submitdata.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{67351274-1AE6-445A-BBC6-8AAC0EA11061}|dotnet_crud\\dotnet_crud.csproj|e:\\code criteria\\asp .net\\dotnet_crud\\dotnet_crud\\views\\home\\insert.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{67351274-1AE6-445A-BBC6-8AAC0EA11061}|dotnet_crud\\dotnet_crud.csproj|solutionrelative:dotnet_crud\\views\\home\\insert.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67351274-1AE6-445A-BBC6-8AAC0EA11061}|dotnet_crud\\dotnet_crud.csproj|e:\\code criteria\\asp .net\\dotnet_crud\\dotnet_crud\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67351274-1AE6-445A-BBC6-8AAC0EA11061}|dotnet_crud\\dotnet_crud.csproj|solutionrelative:dotnet_crud\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67351274-1AE6-445A-BBC6-8AAC0EA11061}|dotnet_crud\\dotnet_crud.csproj|e:\\code criteria\\asp .net\\dotnet_crud\\dotnet_crud\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{67351274-1AE6-445A-BBC6-8AAC0EA11061}|dotnet_crud\\dotnet_crud.csproj|solutionrelative:dotnet_crud\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67351274-1AE6-445A-BBC6-8AAC0EA11061}|dotnet_crud\\dotnet_crud.csproj|e:\\code criteria\\asp .net\\dotnet_crud\\dotnet_crud\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67351274-1AE6-445A-BBC6-8AAC0EA11061}|dotnet_crud\\dotnet_crud.csproj|solutionrelative:dotnet_crud\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,59 +38,92 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "UpdateData.cshtml",
-              "DocumentMoniker": "E:\\CODE CRITERIA\\ASP .NET\\DotNet_Crud\\DotNet_Crud\\Views\\Home\\UpdateData.cshtml",
-              "RelativeDocumentMoniker": "DotNet_Crud\\Views\\Home\\UpdateData.cshtml",
-              "ToolTip": "E:\\CODE CRITERIA\\ASP .NET\\DotNet_Crud\\DotNet_Crud\\Views\\Home\\UpdateData.cshtml",
-              "RelativeToolTip": "DotNet_Crud\\Views\\Home\\UpdateData.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAOAAAAAAAAAA==",
+              "Title": "Update.cshtml",
+              "DocumentMoniker": "E:\\CODE CRITERIA\\ASP .NET\\dotnet_crud\\dotnet_crud\\Views\\Home\\Update.cshtml",
+              "RelativeDocumentMoniker": "dotnet_crud\\Views\\Home\\Update.cshtml",
+              "ToolTip": "E:\\CODE CRITERIA\\ASP .NET\\dotnet_crud\\dotnet_crud\\Views\\Home\\Update.cshtml",
+              "RelativeToolTip": "dotnet_crud\\Views\\Home\\Update.cshtml",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAuwCMAAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-10T11:17:49.883Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-11T11:00:20.993Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "ShowData.cshtml",
-              "DocumentMoniker": "E:\\CODE CRITERIA\\ASP .NET\\DotNet_Crud\\DotNet_Crud\\Views\\Home\\ShowData.cshtml",
-              "RelativeDocumentMoniker": "DotNet_Crud\\Views\\Home\\ShowData.cshtml",
-              "ToolTip": "E:\\CODE CRITERIA\\ASP .NET\\DotNet_Crud\\DotNet_Crud\\Views\\Home\\ShowData.cshtml",
-              "RelativeToolTip": "DotNet_Crud\\Views\\Home\\ShowData.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Title": "Show.cshtml",
+              "DocumentMoniker": "E:\\CODE CRITERIA\\ASP .NET\\dotnet_crud\\dotnet_crud\\Views\\Home\\Show.cshtml",
+              "RelativeDocumentMoniker": "dotnet_crud\\Views\\Home\\Show.cshtml",
+              "ToolTip": "E:\\CODE CRITERIA\\ASP .NET\\dotnet_crud\\dotnet_crud\\Views\\Home\\Show.cshtml",
+              "RelativeToolTip": "dotnet_crud\\Views\\Home\\Show.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACsAAACbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-09T13:23:53.96Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-11T07:57:49.547Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "SubmitData.cshtml",
-              "DocumentMoniker": "E:\\CODE CRITERIA\\ASP .NET\\DotNet_Crud\\DotNet_Crud\\Views\\Home\\SubmitData.cshtml",
-              "RelativeDocumentMoniker": "DotNet_Crud\\Views\\Home\\SubmitData.cshtml",
-              "ToolTip": "E:\\CODE CRITERIA\\ASP .NET\\DotNet_Crud\\DotNet_Crud\\Views\\Home\\SubmitData.cshtml",
-              "RelativeToolTip": "DotNet_Crud\\Views\\Home\\SubmitData.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Title": "Insert.cshtml",
+              "DocumentMoniker": "E:\\CODE CRITERIA\\ASP .NET\\dotnet_crud\\dotnet_crud\\Views\\Home\\Insert.cshtml",
+              "RelativeDocumentMoniker": "dotnet_crud\\Views\\Home\\Insert.cshtml",
+              "ToolTip": "E:\\CODE CRITERIA\\ASP .NET\\dotnet_crud\\dotnet_crud\\Views\\Home\\Insert.cshtml",
+              "RelativeToolTip": "dotnet_crud\\Views\\Home\\Insert.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-09T08:01:21.998Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-11T07:30:58.6Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "E:\\CODE CRITERIA\\ASP .NET\\dotnet_crud\\dotnet_crud\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "dotnet_crud\\Controllers\\HomeController.cs",
+              "ToolTip": "E:\\CODE CRITERIA\\ASP .NET\\dotnet_crud\\dotnet_crud\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "dotnet_crud\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAADwAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T07:29:05.183Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "E:\\CODE CRITERIA\\ASP .NET\\dotnet_crud\\dotnet_crud\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "dotnet_crud\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "E:\\CODE CRITERIA\\ASP .NET\\dotnet_crud\\dotnet_crud\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "dotnet_crud\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAABuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-11T07:27:44.73Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "E:\\CODE CRITERIA\\ASP .NET\\DotNet_Crud\\DotNet_Crud\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "DotNet_Crud\\Controllers\\HomeController.cs",
-              "ToolTip": "E:\\CODE CRITERIA\\ASP .NET\\DotNet_Crud\\DotNet_Crud\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "DotNet_Crud\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAAAD4AAAAJAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\CODE CRITERIA\\ASP .NET\\dotnet_crud\\dotnet_crud\\Program.cs",
+              "RelativeDocumentMoniker": "dotnet_crud\\Program.cs",
+              "ToolTip": "E:\\CODE CRITERIA\\ASP .NET\\dotnet_crud\\dotnet_crud\\Program.cs",
+              "RelativeToolTip": "dotnet_crud\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-09T08:00:25.06Z",
+              "WhenOpened": "2025-03-11T07:05:35.522Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "E:\\CODE CRITERIA\\ASP .NET\\dotnet_crud\\dotnet_crud\\Models\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "dotnet_crud\\Models\\ApplicationDbContext.cs",
+              "ToolTip": "E:\\CODE CRITERIA\\ASP .NET\\dotnet_crud\\dotnet_crud\\Models\\ApplicationDbContext.cs",
+              "RelativeToolTip": "dotnet_crud\\Models\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T07:03:32.516Z"
             }
           ]
         }

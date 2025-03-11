@@ -7,53 +7,49 @@ build_property.InvariantGlobalization =
 build_property.PlatformNeutralAssembly = 
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
-build_property.RootNamespace = DotNet_Crud
-build_property.RootNamespace = DotNet_Crud
-build_property.ProjectDir = E:\CODE CRITERIA\ASP .NET\DotNet_Crud\DotNet_Crud\
+build_property.RootNamespace = dotnet_crud
+build_property.RootNamespace = dotnet_crud
+build_property.ProjectDir = E:\CODE CRITERIA\ASP .NET\dotnet_crud\dotnet_crud\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = E:\CODE CRITERIA\ASP .NET\DotNet_Crud\DotNet_Crud
+build_property.MSBuildProjectDirectory = E:\CODE CRITERIA\ASP .NET\dotnet_crud\dotnet_crud
 build_property._RazorSourceGeneratorDebug = 
 
-[E:/CODE CRITERIA/ASP .NET/DotNet_Crud/DotNet_Crud/Views/Home/Index.cshtml]
+[E:/CODE CRITERIA/ASP .NET/dotnet_crud/dotnet_crud/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/CODE CRITERIA/ASP .NET/DotNet_Crud/DotNet_Crud/Views/Home/Privacy.cshtml]
+[E:/CODE CRITERIA/ASP .NET/dotnet_crud/dotnet_crud/Views/Home/Insert.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbnNlcnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/CODE CRITERIA/ASP .NET/dotnet_crud/dotnet_crud/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/CODE CRITERIA/ASP .NET/DotNet_Crud/DotNet_Crud/Views/Home/ShowData.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTaG93RGF0YS5jc2h0bWw=
+[E:/CODE CRITERIA/ASP .NET/dotnet_crud/dotnet_crud/Views/Home/Show.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTaG93LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/CODE CRITERIA/ASP .NET/DotNet_Crud/DotNet_Crud/Views/Home/SubmitData.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTdWJtaXREYXRhLmNzaHRtbA==
+[E:/CODE CRITERIA/ASP .NET/dotnet_crud/dotnet_crud/Views/Home/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxVcGRhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/CODE CRITERIA/ASP .NET/DotNet_Crud/DotNet_Crud/Views/Home/UpdateData.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxVcGRhdGVEYXRhLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[E:/CODE CRITERIA/ASP .NET/DotNet_Crud/DotNet_Crud/Views/Shared/Error.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[E:/CODE CRITERIA/ASP .NET/DotNet_Crud/DotNet_Crud/Views/Shared/_ValidationScriptsPartial.cshtml]
+[E:/CODE CRITERIA/ASP .NET/dotnet_crud/dotnet_crud/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/CODE CRITERIA/ASP .NET/DotNet_Crud/DotNet_Crud/Views/_ViewImports.cshtml]
+[E:/CODE CRITERIA/ASP .NET/dotnet_crud/dotnet_crud/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/CODE CRITERIA/ASP .NET/DotNet_Crud/DotNet_Crud/Views/_ViewStart.cshtml]
+[E:/CODE CRITERIA/ASP .NET/dotnet_crud/dotnet_crud/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/CODE CRITERIA/ASP .NET/DotNet_Crud/DotNet_Crud/Views/Shared/_Layout.cshtml]
+[E:/CODE CRITERIA/ASP .NET/dotnet_crud/dotnet_crud/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = b-49utic4ama
+build_metadata.AdditionalFiles.CssScope = b-yybakolucm
