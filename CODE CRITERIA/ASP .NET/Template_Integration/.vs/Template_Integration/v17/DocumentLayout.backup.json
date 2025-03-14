@@ -1,0 +1,149 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\CODE CRITERIA\\ASP .NET\\Template_Integration\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{200E5F0D-B1B3-48D8-9084-EAD465079D15}|Template_Integration\\Template_Integration.csproj|e:\\code criteria\\asp .net\\template_integration\\template_integration\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{200E5F0D-B1B3-48D8-9084-EAD465079D15}|Template_Integration\\Template_Integration.csproj|solutionrelative:template_integration\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{200E5F0D-B1B3-48D8-9084-EAD465079D15}|Template_Integration\\Template_Integration.csproj|e:\\code criteria\\asp .net\\template_integration\\template_integration\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{200E5F0D-B1B3-48D8-9084-EAD465079D15}|Template_Integration\\Template_Integration.csproj|solutionrelative:template_integration\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{200E5F0D-B1B3-48D8-9084-EAD465079D15}|Template_Integration\\Template_Integration.csproj|e:\\code criteria\\asp .net\\template_integration\\template_integration\\views\\home\\blog.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{200E5F0D-B1B3-48D8-9084-EAD465079D15}|Template_Integration\\Template_Integration.csproj|solutionrelative:template_integration\\views\\home\\blog.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{200E5F0D-B1B3-48D8-9084-EAD465079D15}|Template_Integration\\Template_Integration.csproj|e:\\code criteria\\asp .net\\template_integration\\template_integration\\views\\home\\services.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{200E5F0D-B1B3-48D8-9084-EAD465079D15}|Template_Integration\\Template_Integration.csproj|solutionrelative:template_integration\\views\\home\\services.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{200E5F0D-B1B3-48D8-9084-EAD465079D15}|Template_Integration\\Template_Integration.csproj|e:\\code criteria\\asp .net\\template_integration\\template_integration\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{200E5F0D-B1B3-48D8-9084-EAD465079D15}|Template_Integration\\Template_Integration.csproj|solutionrelative:template_integration\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{200E5F0D-B1B3-48D8-9084-EAD465079D15}|Template_Integration\\Template_Integration.csproj|e:\\code criteria\\asp .net\\template_integration\\template_integration\\views\\home\\shop.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{200E5F0D-B1B3-48D8-9084-EAD465079D15}|Template_Integration\\Template_Integration.csproj|solutionrelative:template_integration\\views\\home\\shop.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{200E5F0D-B1B3-48D8-9084-EAD465079D15}|Template_Integration\\Template_Integration.csproj|e:\\code criteria\\asp .net\\template_integration\\template_integration\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{200E5F0D-B1B3-48D8-9084-EAD465079D15}|Template_Integration\\Template_Integration.csproj|solutionrelative:template_integration\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{200E5F0D-B1B3-48D8-9084-EAD465079D15}|Template_Integration\\Template_Integration.csproj|e:\\code criteria\\asp .net\\template_integration\\template_integration\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{200E5F0D-B1B3-48D8-9084-EAD465079D15}|Template_Integration\\Template_Integration.csproj|solutionrelative:template_integration\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Contact.cshtml",
+              "DocumentMoniker": "E:\\CODE CRITERIA\\ASP .NET\\Template_Integration\\Template_Integration\\Views\\Home\\Contact.cshtml",
+              "RelativeDocumentMoniker": "Template_Integration\\Views\\Home\\Contact.cshtml",
+              "ToolTip": "E:\\CODE CRITERIA\\ASP .NET\\Template_Integration\\Template_Integration\\Views\\Home\\Contact.cshtml",
+              "RelativeToolTip": "Template_Integration\\Views\\Home\\Contact.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-14T12:17:00.482Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Blog.cshtml",
+              "DocumentMoniker": "E:\\CODE CRITERIA\\ASP .NET\\Template_Integration\\Template_Integration\\Views\\Home\\Blog.cshtml",
+              "RelativeDocumentMoniker": "Template_Integration\\Views\\Home\\Blog.cshtml",
+              "ToolTip": "E:\\CODE CRITERIA\\ASP .NET\\Template_Integration\\Template_Integration\\Views\\Home\\Blog.cshtml",
+              "RelativeToolTip": "Template_Integration\\Views\\Home\\Blog.cshtml",
+              "ViewState": "AgIAAMEAAAAAAAAAAAAwwNcAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-14T12:16:44.635Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Services.cshtml",
+              "DocumentMoniker": "E:\\CODE CRITERIA\\ASP .NET\\Template_Integration\\Template_Integration\\Views\\Home\\Services.cshtml",
+              "RelativeDocumentMoniker": "Template_Integration\\Views\\Home\\Services.cshtml",
+              "ToolTip": "E:\\CODE CRITERIA\\ASP .NET\\Template_Integration\\Template_Integration\\Views\\Home\\Services.cshtml",
+              "RelativeToolTip": "Template_Integration\\Views\\Home\\Services.cshtml",
+              "ViewState": "AgIAAMcAAAAAAAAAAAAwwN0AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-14T12:16:30.016Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "About.cshtml",
+              "DocumentMoniker": "E:\\CODE CRITERIA\\ASP .NET\\Template_Integration\\Template_Integration\\Views\\Home\\About.cshtml",
+              "RelativeDocumentMoniker": "Template_Integration\\Views\\Home\\About.cshtml",
+              "ToolTip": "E:\\CODE CRITERIA\\ASP .NET\\Template_Integration\\Template_Integration\\Views\\Home\\About.cshtml",
+              "RelativeToolTip": "Template_Integration\\Views\\Home\\About.cshtml",
+              "ViewState": "AgIAALoAAAAAAAAAAAAwwNAAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-14T12:14:50.193Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Shop.cshtml",
+              "DocumentMoniker": "E:\\CODE CRITERIA\\ASP .NET\\Template_Integration\\Template_Integration\\Views\\Home\\Shop.cshtml",
+              "RelativeDocumentMoniker": "Template_Integration\\Views\\Home\\Shop.cshtml",
+              "ToolTip": "E:\\CODE CRITERIA\\ASP .NET\\Template_Integration\\Template_Integration\\Views\\Home\\Shop.cshtml",
+              "RelativeToolTip": "Template_Integration\\Views\\Home\\Shop.cshtml",
+              "ViewState": "AgIAAF4AAAAAAAAAAAAwwHgAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-14T12:07:03.128Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "E:\\CODE CRITERIA\\ASP .NET\\Template_Integration\\Template_Integration\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Template_Integration\\Controllers\\HomeController.cs",
+              "ToolTip": "E:\\CODE CRITERIA\\ASP .NET\\Template_Integration\\Template_Integration\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Template_Integration\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAACEAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T12:03:20.973Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\CODE CRITERIA\\ASP .NET\\Template_Integration\\Template_Integration\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Template_Integration\\Views\\Home\\Index.cshtml",
+              "ToolTip": "E:\\CODE CRITERIA\\ASP .NET\\Template_Integration\\Template_Integration\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Template_Integration\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-14T12:00:52.547Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "E:\\CODE CRITERIA\\ASP .NET\\Template_Integration\\Template_Integration\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Template_Integration\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "E:\\CODE CRITERIA\\ASP .NET\\Template_Integration\\Template_Integration\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Template_Integration\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAACcAAAAAAAAAAAAwwD0AAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-14T11:50:35.836Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
