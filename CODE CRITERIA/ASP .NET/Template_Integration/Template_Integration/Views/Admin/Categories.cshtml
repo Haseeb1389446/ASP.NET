@@ -1,0 +1,58 @@
+﻿
+@{
+    ViewData["Title"] = "Categories";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<main id="main" class="main">
+
+    <div class="pagetitle mb-5">
+        <h1>Categories</h1>
+    </div><!-- End Page Title -->
+
+    <section class="section">
+        <div class="row">
+            <div class="col-lg-12">
+
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Categories</h5>
+
+                        <!-- Table with stripped rows -->
+                        <table class="table datatable">
+                            <thead>
+                                <tr>
+                                    <th>Id</th>
+                                    <th>Category</th>
+                                    <th>Actions</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1001</td>
+                                    <td>Laptop</td>
+                                    <td><a class="btn btn-warning" asp-controller="Admin" asp-action="UpdateCategory">Edit</a> <a class="btn btn-danger" asp-controller="Admin" asp-action="DeleteCategory">Delete</a></td>
+                                </tr>
+                                <tr>
+                                    <td>1002</td>
+                                    <td>Mobiles</td>
+                                    <td><a class="btn btn-warning" asp-controller="Admin" asp-action="UpdateCategory">Edit</a> <a class="btn btn-danger" asp-controller="Admin" asp-action="DeleteCategory">Delete</a></td>
+                                </tr>
+                                <tr>
+                                    <td>1003</td>
+                                    <td>Headphones</td>
+                                    <td><a class="btn btn-warning" asp-controller="Admin" asp-action="UpdateCategory">Edit</a> <a class="btn btn-danger" asp-controller="Admin" asp-action="DeleteCategory">Delete</a></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <!-- End Table with stripped rows -->
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+</main><!-- End #main -->
+

@@ -1,0 +1,87 @@
+﻿
+@{
+    ViewData["Title"] = "Products";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<main id="main" class="main">
+
+    <div class="pagetitle mb-5">
+        <h1>Products</h1>
+    </div><!-- End Page Title -->
+
+    <section class="section">
+        <div class="row">
+            <div class="col-lg-12">
+
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Products</h5>
+
+                        <!-- Table with stripped rows -->
+                        <table class="table datatable">
+                            <thead>
+                                <tr>
+                                    <th>Id</th>
+                                    <th>Name</th>
+                                    <th>Desc</th>
+                                    <th>Price</th>
+                                    <th>Qty</th>
+                                    <th>Category</th>
+                                    <th>Product Image</th>
+                                    <th>Actions</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1001</td>
+                                    <td>Realme</td>
+                                    <td>This is Mobile</td>
+                                    <td>30000</td>
+                                    <td>1</td>
+                                    <td>Mobiles</td>
+                                    <td><img src="~/images/couch.png" width="50px" height="50px" /></td>
+                                    <td><a class="btn btn-warning" asp-controller="Admin" asp-action="UpdateProduct">Edit</a> <a class="btn btn-danger" asp-controller="Admin" asp-action="DeleteProduct">Delete</a></td>
+                                </tr>
+                                <tr>
+                                    <td>1002</td>
+                                    <td>HP</td>
+                                    <td>This is Laptop</td>
+                                    <td>50000</td>
+                                    <td>4</td>
+                                    <td>Laptop</td>
+                                    <td><img src="~/images/bowl-3.png" width="50px" height="50px" /></td>
+                                    <td><a class="btn btn-warning" asp-controller="Admin" asp-action="UpdateProduct">Edit</a> <a class="btn btn-danger" asp-controller="Admin" asp-action="DeleteProduct">Delete</a></td>
+                                </tr>
+                                <tr>
+                                    <td>1003</td>
+                                    <td>Audionic</td>
+                                    <td>This is Headphones</td>
+                                    <td>9000</td>
+                                    <td>8</td>
+                                    <td>Headphones</td>
+                                    <td><img src="~/images/bowl-2.png" width="50px" height="50px" /></td>
+                                    <td><a class="btn btn-warning" asp-controller="Admin" asp-action="UpdateProduct">Edit</a> <a class="btn btn-danger" asp-controller="Admin" asp-action="DeleteProduct">Delete</a></td>
+                                </tr>
+                                <tr>
+                                    <td>1004</td>
+                                    <td>Lenovo</td>
+                                    <td>This is Laptop</td>
+                                    <td>70000</td>
+                                    <td>2</td>
+                                    <td>Laptop</td>
+                                    <td><img src="~/images/product-3.png" width="50px" height="50px" /></td>
+                                    <td><a class="btn btn-warning" asp-controller="Admin" asp-action="UpdateProduct">Edit</a> <a class="btn btn-danger" asp-controller="Admin" asp-action="DeleteProduct">Delete</a></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <!-- End Table with stripped rows -->
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+</main><!-- End #main -->
