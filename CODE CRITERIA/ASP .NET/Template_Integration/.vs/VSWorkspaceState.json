@@ -3,8 +3,9 @@
     "",
     "\\Template_Integration",
     "\\Template_Integration\\Views",
+    "\\Template_Integration\\Views\\Admin",
     "\\Template_Integration\\Views\\Shared"
   ],
-  "SelectedNode": "\\Template_Integration.sln",
+  "SelectedNode": "\\Template_Integration\\Views\\Admin\\Products.cshtml",
   "PreviewInSolutionExplorer": false
 }
