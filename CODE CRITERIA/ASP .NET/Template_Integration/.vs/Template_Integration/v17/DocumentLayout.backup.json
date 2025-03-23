@@ -7,16 +7,20 @@
       "RelativeMoniker": "D:0:0:{200E5F0D-B1B3-48D8-9084-EAD465079D15}|Template_Integration\\Template_Integration.csproj|solutionrelative:template_integration\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{200E5F0D-B1B3-48D8-9084-EAD465079D15}|Template_Integration\\Template_Integration.csproj|e:\\code criteria\\asp .net\\template_integration\\template_integration\\models\\signupviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{200E5F0D-B1B3-48D8-9084-EAD465079D15}|Template_Integration\\Template_Integration.csproj|solutionrelative:template_integration\\models\\signupviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{200E5F0D-B1B3-48D8-9084-EAD465079D15}|Template_Integration\\Template_Integration.csproj|e:\\code criteria\\asp .net\\template_integration\\template_integration\\views\\auth\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{200E5F0D-B1B3-48D8-9084-EAD465079D15}|Template_Integration\\Template_Integration.csproj|solutionrelative:template_integration\\views\\auth\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{200E5F0D-B1B3-48D8-9084-EAD465079D15}|Template_Integration\\Template_Integration.csproj|e:\\code criteria\\asp .net\\template_integration\\template_integration\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{200E5F0D-B1B3-48D8-9084-EAD465079D15}|Template_Integration\\Template_Integration.csproj|solutionrelative:template_integration\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{200E5F0D-B1B3-48D8-9084-EAD465079D15}|Template_Integration\\Template_Integration.csproj|e:\\code criteria\\asp .net\\template_integration\\template_integration\\models\\authdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{200E5F0D-B1B3-48D8-9084-EAD465079D15}|Template_Integration\\Template_Integration.csproj|solutionrelative:template_integration\\models\\authdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{200E5F0D-B1B3-48D8-9084-EAD465079D15}|Template_Integration\\Template_Integration.csproj|e:\\code criteria\\asp .net\\template_integration\\template_integration\\views\\auth\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{200E5F0D-B1B3-48D8-9084-EAD465079D15}|Template_Integration\\Template_Integration.csproj|solutionrelative:template_integration\\views\\auth\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{200E5F0D-B1B3-48D8-9084-EAD465079D15}|Template_Integration\\Template_Integration.csproj|e:\\code criteria\\asp .net\\template_integration\\template_integration\\models\\signupviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{200E5F0D-B1B3-48D8-9084-EAD465079D15}|Template_Integration\\Template_Integration.csproj|solutionrelative:template_integration\\models\\signupviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{200E5F0D-B1B3-48D8-9084-EAD465079D15}|Template_Integration\\Template_Integration.csproj|e:\\code criteria\\asp .net\\template_integration\\template_integration\\views\\admin\\products.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -37,10 +41,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{200E5F0D-B1B3-48D8-9084-EAD465079D15}|Template_Integration\\Template_Integration.csproj|e:\\code criteria\\asp .net\\template_integration\\template_integration\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{200E5F0D-B1B3-48D8-9084-EAD465079D15}|Template_Integration\\Template_Integration.csproj|solutionrelative:template_integration\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{200E5F0D-B1B3-48D8-9084-EAD465079D15}|Template_Integration\\Template_Integration.csproj|e:\\code criteria\\asp .net\\template_integration\\template_integration\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{200E5F0D-B1B3-48D8-9084-EAD465079D15}|Template_Integration\\Template_Integration.csproj|solutionrelative:template_integration\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{200E5F0D-B1B3-48D8-9084-EAD465079D15}|Template_Integration\\Template_Integration.csproj|e:\\code criteria\\asp .net\\template_integration\\template_integration\\views\\admin\\addproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -102,36 +102,23 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "SignUpViewModel.cs",
               "DocumentMoniker": "E:\\CODE CRITERIA\\ASP .NET\\Template_Integration\\Template_Integration\\Models\\SignUpViewModel.cs",
               "RelativeDocumentMoniker": "Template_Integration\\Models\\SignUpViewModel.cs",
               "ToolTip": "E:\\CODE CRITERIA\\ASP .NET\\Template_Integration\\Template_Integration\\Models\\SignUpViewModel.cs",
               "RelativeToolTip": "Template_Integration\\Models\\SignUpViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T12:08:14.464Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-23T07:33:24.844Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "E:\\CODE CRITERIA\\ASP .NET\\Template_Integration\\Template_Integration\\Views\\Auth\\Login.cshtml",
-              "RelativeDocumentMoniker": "Template_Integration\\Views\\Auth\\Login.cshtml",
-              "ToolTip": "E:\\CODE CRITERIA\\ASP .NET\\Template_Integration\\Template_Integration\\Views\\Auth\\Login.cshtml",
-              "RelativeToolTip": "Template_Integration\\Views\\Auth\\Login.cshtml",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABkAAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-21T11:45:54.065Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "_AuthLayout.cshtml",
               "DocumentMoniker": "E:\\CODE CRITERIA\\ASP .NET\\Template_Integration\\Template_Integration\\Views\\Shared\\_AuthLayout.cshtml",
               "RelativeDocumentMoniker": "Template_Integration\\Views\\Shared\\_AuthLayout.cshtml",
@@ -143,16 +130,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "SignUp.cshtml",
               "DocumentMoniker": "E:\\CODE CRITERIA\\ASP .NET\\Template_Integration\\Template_Integration\\Views\\Auth\\SignUp.cshtml",
               "RelativeDocumentMoniker": "Template_Integration\\Views\\Auth\\SignUp.cshtml",
-              "ToolTip": "E:\\CODE CRITERIA\\ASP .NET\\Template_Integration\\Template_Integration\\Views\\Auth\\SignUp.cshtml*",
-              "RelativeToolTip": "Template_Integration\\Views\\Auth\\SignUp.cshtml*",
-              "ViewState": "AgIAABoAAAAAAAAAAAAAACEAAAA4AAAAAAAAAA==",
+              "ToolTip": "E:\\CODE CRITERIA\\ASP .NET\\Template_Integration\\Template_Integration\\Views\\Auth\\SignUp.cshtml",
+              "RelativeToolTip": "Template_Integration\\Views\\Auth\\SignUp.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACAAAABOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-21T11:38:07.627Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-21T11:38:07.627Z"
             },
             {
               "$type": "Document",
@@ -160,16 +146,16 @@
               "Title": "AuthController.cs",
               "DocumentMoniker": "E:\\CODE CRITERIA\\ASP .NET\\Template_Integration\\Template_Integration\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "Template_Integration\\Controllers\\AuthController.cs",
-              "ToolTip": "E:\\CODE CRITERIA\\ASP .NET\\Template_Integration\\Template_Integration\\Controllers\\AuthController.cs*",
-              "RelativeToolTip": "Template_Integration\\Controllers\\AuthController.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAjAAAAAAAAAA==",
+              "ToolTip": "E:\\CODE CRITERIA\\ASP .NET\\Template_Integration\\Template_Integration\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Template_Integration\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAEAAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-21T11:33:41.351Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "AuthDbContext.cs",
               "DocumentMoniker": "E:\\CODE CRITERIA\\ASP .NET\\Template_Integration\\Template_Integration\\Models\\AuthDbContext.cs",
               "RelativeDocumentMoniker": "Template_Integration\\Models\\AuthDbContext.cs",
@@ -177,8 +163,7 @@
               "RelativeToolTip": "Template_Integration\\Models\\AuthDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T10:35:24.199Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-21T10:35:24.199Z"
             },
             {
               "$type": "Document",
@@ -194,7 +179,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Products.cshtml",
               "DocumentMoniker": "E:\\CODE CRITERIA\\ASP .NET\\Template_Integration\\Template_Integration\\Views\\Admin\\Products.cshtml",
               "RelativeDocumentMoniker": "Template_Integration\\Views\\Admin\\Products.cshtml",
@@ -218,7 +203,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\CODE CRITERIA\\ASP .NET\\Template_Integration\\Template_Integration\\Program.cs",
+              "RelativeDocumentMoniker": "Template_Integration\\Program.cs",
+              "ToolTip": "E:\\CODE CRITERIA\\ASP .NET\\Template_Integration\\Template_Integration\\Program.cs",
+              "RelativeToolTip": "Template_Integration\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T07:46:54.416Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "E:\\CODE CRITERIA\\ASP .NET\\Template_Integration\\Template_Integration\\Views\\Auth\\Login.cshtml",
+              "RelativeDocumentMoniker": "Template_Integration\\Views\\Auth\\Login.cshtml",
+              "ToolTip": "E:\\CODE CRITERIA\\ASP .NET\\Template_Integration\\Template_Integration\\Views\\Auth\\Login.cshtml",
+              "RelativeToolTip": "Template_Integration\\Views\\Auth\\Login.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABkAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-21T11:45:54.065Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "_AdminLayout.cshtml",
               "DocumentMoniker": "E:\\CODE CRITERIA\\ASP .NET\\Template_Integration\\Template_Integration\\Views\\Shared\\_AdminLayout.cshtml",
               "RelativeDocumentMoniker": "Template_Integration\\Views\\Shared\\_AdminLayout.cshtml",
@@ -230,7 +239,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "E:\\CODE CRITERIA\\ASP .NET\\Template_Integration\\Template_Integration\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Template_Integration\\Views\\Shared\\_Layout.cshtml",
@@ -263,18 +272,6 @@
               "ViewState": "AgIAAAEAAAAAAAAAAAAuwAoAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-03-19T08:05:46.283Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Program.cs",
-              "DocumentMoniker": "E:\\CODE CRITERIA\\ASP .NET\\Template_Integration\\Template_Integration\\Program.cs",
-              "RelativeDocumentMoniker": "Template_Integration\\Program.cs",
-              "ToolTip": "E:\\CODE CRITERIA\\ASP .NET\\Template_Integration\\Template_Integration\\Program.cs",
-              "RelativeToolTip": "Template_Integration\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAABGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T07:46:54.416Z"
             },
             {
               "$type": "Document",
