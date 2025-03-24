@@ -24,6 +24,13 @@ builder.Services.AddIdentity<IdentityUser, IdentityRole>(opt =>
     }
 ).AddEntityFrameworkStores<AuthDbContext>().AddDefaultTokenProviders();
 
+builder.Services.ConfigureApplicationCookie(opt =>
+{
+    opt.LoginPath = "/Auth/Login";
+    opt.LogoutPath = "/Auth/Logout";
+    opt.AccessDeniedPath = "/Home/Index";
+});
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

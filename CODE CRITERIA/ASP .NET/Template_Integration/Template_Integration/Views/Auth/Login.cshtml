@@ -1,7 +1,10 @@
-﻿
+﻿@using Template_Integration.Models;
+
 @{
     Layout = "_AuthLayout";
 }
+
+@model LoginViewModel;
 
  <main>
     <div class="container">
@@ -26,21 +29,18 @@
                     <h5 class="card-title text-center pb-4 fs-4">Login to Your Account</h5>
                   </div>
 
-                  <form class="row g-3 needs-validation" novalidate>
+                  <form class="row g-3" method="post" asp-controller="Auth" asp-action="Login">
 
                     <div class="col-12">
-                      <label for="yourUsername" class="form-label">Username</label>
-                      <div class="input-group has-validation">
-                        <span class="input-group-text" id="inputGroupPrepend"></span>
-                        <input type="text" name="username" class="form-control" id="yourUsername" required>
-                        <div class="invalid-feedback">Please enter your username.</div>
-                      </div>
+                        <label for="Email" class="form-label">Email</label>
+                        <input type="email" name="email" asp-for="Email" class="form-control" id="Email">
+                        <span style="color: red;" asp-validation-for="Email"></span><br><br>
                     </div>
 
                     <div class="col-12">
                       <label for="yourPassword" class="form-label">Password</label>
-                      <input type="password" name="password" class="form-control" id="yourPassword" required>
-                      <div class="invalid-feedback">Please enter your password!</div>
+                      <input type="password" name="password" asp-for="Password" class="form-control" id="yourPassword">
+                      <span style="color: red;" asp-validation-for="Password"></span><br><br>
                     </div>
 
                     <div class="col-12">

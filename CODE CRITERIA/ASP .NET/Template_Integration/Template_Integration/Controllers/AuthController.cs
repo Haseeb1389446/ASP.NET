@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using Template_Integration.Models;
 
 namespace Template_Integration.Controllers
@@ -52,7 +53,7 @@ namespace Template_Integration.Controllers
                     Email = model.UserEmail,
                 };
 
-                await _userManager.CreateAsync(user);
+                await _userManager.CreateAsync(user,model.UserPassword);
 
                 if (model.UserEmail == "admin@gmail.com") {
                     await _userManager.AddToRoleAsync(user, "Admin");
@@ -73,9 +74,36 @@ namespace Template_Integration.Controllers
             return View();
         }
 
+        [HttpPost]
+        public async Task<IActionResult> Login(LoginViewModel model)
+        {
+            if (ModelState.IsValid)
+            {
+                var user = await _userManager.FindByEmailAsync(model.Email);
+                var authenticated = await _signInManager.PasswordSignInAsync(user, model.Password, model.RememberMe, false);
+
+                if (authenticated.Succeeded)
+                {
+                    if (User.IsInRole("Admin"))
+                    {
+                        return RedirectToAction("Index", "Admin");
+                    }
+                    else
+                    {
+                        return RedirectToAction("Index", "Home");
+                    }
+                }
+
+                return View();
+            }
+
+            return View();
+        }
+
         public IActionResult Logout()
         {
-            return View();
+            _signInManager.SignOutAsync();
+            return RedirectToAction("Login");
         }
 
         public IActionResult ForgetPassword()
