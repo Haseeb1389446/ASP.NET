@@ -11,7 +11,7 @@ using Template_Integration.Models;
 
 namespace Template_Integration.Migrations
 {
-    [DbContext(typeof(AuthDbContext))]
+    [DbContext(typeof(ApplicationDbContext))]
     [Migration("20250321112206_int101")]
     partial class int101
     {

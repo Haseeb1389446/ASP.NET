@@ -9,7 +9,7 @@ builder.Services.AddControllersWithViews();
 
 var con = builder.Configuration.GetConnectionString("mycon");
 
-builder.Services.AddDbContext<AuthDbContext>(opt =>
+builder.Services.AddDbContext<ApplicationDbContext>(opt =>
 
     opt.UseSqlServer(con)
 
@@ -22,7 +22,7 @@ builder.Services.AddIdentity<IdentityUser, IdentityRole>(opt =>
         opt.Password.RequireLowercase = false;
         opt.Password.RequireUppercase = false;
     }
-).AddEntityFrameworkStores<AuthDbContext>().AddDefaultTokenProviders();
+).AddEntityFrameworkStores<ApplicationDbContext>().AddDefaultTokenProviders();
 
 builder.Services.ConfigureApplicationCookie(opt =>
 {

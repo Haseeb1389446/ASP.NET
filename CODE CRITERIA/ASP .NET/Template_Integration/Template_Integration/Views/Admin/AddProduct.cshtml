@@ -4,6 +4,8 @@
     Layout = "~/Views/Shared/_AdminLayout.cshtml";
 }
 
+@model Product;
+
 <main id="main" class="main">
 
     <div class="pagetitle mb-5">
@@ -18,34 +20,35 @@
                         <h5 class="card-title text-center mb-4">Add Product</h5>
 
                         <!-- Vertical Form -->
-                        <form class="row g-3">
+                        <form class="row g-3" asp-controller="Admin" asp-action="AddProduct" method="post" enctype="multipart/form-data">
                             <div class="col-12">
                                 <label for="Name" class="form-label">Name</label>
-                                <input type="text" class="form-control" id="Name">
+                                <input type="text" asp-for="ProductName" class="form-control" id="Name">
                             </div>
                             <div class="col-12">
                                 <label for="Desc" class="form-label">Description</label>
-                                <input type="text" class="form-control" id="Desc">
+                                <input type="text" asp-for="ProductDesc" class="form-control" id="Desc">
                             </div>
                             <div class="col-12">
                                 <label for="Price" class="form-label">Price</label>
-                                <input type="text" class="form-control" id="Price">
+                                <input type="text" asp-for="ProductPrice" class="form-control" id="Price">
                             </div>
                             <div class="col-12">
                                 <label for="qty" class="form-label">Quantity</label>
-                                <input type="text" class="form-control" id="qty">
+                                <input type="text" asp-for="ProductQty" class="form-control" id="qty">
                             </div>
                             <div class="col-12">
                                 <label for="Category" class="form-label">Category</label>
-                                <select class="form-control">
-                                    <option value="value">Laptop</option>
-                                    <option value="value">Mobiles</option>
-                                    <option value="value">Headphones</option>
+                                <select asp-for="CategoryId" class="form-control">
+                                    @foreach(var item in TempData["categories"] as List<Categories>)
+                                    {
+                                        <option value="@item.CategoryId">@item.CategoryName</option>
+                                    }
                                 </select>
                             </div>
                             <div class="col-12">
                                 <label for="file" class="form-label btn btn-info w-100">Product Image</label>
-                                <input hidden type="file" class="form-control" id="file">
+                                <input hidden type="file" name="proimage" class="form-control" id="file">
                             </div>
                             <div class="text-center">
                                 <button type="submit" class="btn btn-primary d-block">Add</button>

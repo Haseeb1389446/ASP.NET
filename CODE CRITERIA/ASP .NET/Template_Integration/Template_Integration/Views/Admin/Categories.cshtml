@@ -4,6 +4,8 @@
     Layout = "~/Views/Shared/_AdminLayout.cshtml";
 }
 
+@model List<Categories>;
+
 <main id="main" class="main">
 
     <div class="pagetitle mb-5">
@@ -28,21 +30,13 @@
                                 </tr>
                             </thead>
                             <tbody>
-                                <tr>
-                                    <td>1001</td>
-                                    <td>Laptop</td>
-                                    <td><a class="btn btn-warning" asp-controller="Admin" asp-action="UpdateCategory">Edit</a> <a class="btn btn-danger" asp-controller="Admin" asp-action="DeleteCategory">Delete</a></td>
-                                </tr>
-                                <tr>
-                                    <td>1002</td>
-                                    <td>Mobiles</td>
-                                    <td><a class="btn btn-warning" asp-controller="Admin" asp-action="UpdateCategory">Edit</a> <a class="btn btn-danger" asp-controller="Admin" asp-action="DeleteCategory">Delete</a></td>
-                                </tr>
-                                <tr>
-                                    <td>1003</td>
-                                    <td>Headphones</td>
-                                    <td><a class="btn btn-warning" asp-controller="Admin" asp-action="UpdateCategory">Edit</a> <a class="btn btn-danger" asp-controller="Admin" asp-action="DeleteCategory">Delete</a></td>
-                                </tr>
+                                @foreach(var item in Model){
+                                    <tr>
+                                        <td>@item.CategoryId</td>
+                                        <td>@item.CategoryName</td>
+                                        <td><a class="btn btn-warning" asp-controller="Admin" asp-action="UpdateCategory" asp-route-id="@item.CategoryId">Edit</a> <a class="btn btn-danger" asp-controller="Admin" asp-action="RemoveCategory" asp-route-id="@item.CategoryId">Delete</a></td>
+                                    </tr>
+                                }
                             </tbody>
                         </table>
                         <!-- End Table with stripped rows -->
