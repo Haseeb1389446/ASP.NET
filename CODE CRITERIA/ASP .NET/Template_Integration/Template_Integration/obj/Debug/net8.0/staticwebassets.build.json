@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "0hH+DoWxf/vsScWaCAJMRPLqkmU1OkRNA97RLZ1n4dM=",
+  "Hash": "h+JV3+jz6Ov4R7hkBKvNQoMi90fTNJN33F73+Kal8t4=",
   "Source": "Template_Integration",
   "BasePath": "_content/Template_Integration",
   "Mode": "Default",
@@ -11396,6 +11396,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\scss\\style.scss"
+    },
+    {
+      "Identity": "E:\\CODE CRITERIA\\ASP .NET\\Template_Integration\\Template_Integration\\wwwroot\\Uploads\\Products\\desktop-computer.jpg",
+      "SourceId": "Template_Integration",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\CODE CRITERIA\\ASP .NET\\Template_Integration\\Template_Integration\\wwwroot\\",
+      "BasePath": "_content/Template_Integration",
+      "RelativePath": "Uploads/Products/desktop-computer.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\Products\\desktop-computer.jpg"
     },
     {
       "Identity": "E:\\CODE CRITERIA\\ASP .NET\\Template_Integration\\Template_Integration\\wwwroot\\Uploads\\Products\\eaa2a9d5-d52f-41b2-81cd-146926834767.jfif",

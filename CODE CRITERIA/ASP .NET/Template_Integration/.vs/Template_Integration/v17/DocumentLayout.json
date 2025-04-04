@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "E:\\CODE CRITERIA\\ASP .NET\\Template_Integration\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{200E5F0D-B1B3-48D8-9084-EAD465079D15}|Template_Integration\\Template_Integration.csproj|e:\\code criteria\\asp .net\\template_integration\\template_integration\\views\\admin\\addproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{200E5F0D-B1B3-48D8-9084-EAD465079D15}|Template_Integration\\Template_Integration.csproj|solutionrelative:template_integration\\views\\admin\\addproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{200E5F0D-B1B3-48D8-9084-EAD465079D15}|Template_Integration\\Template_Integration.csproj|e:\\code criteria\\asp .net\\template_integration\\template_integration\\views\\admin\\products.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{200E5F0D-B1B3-48D8-9084-EAD465079D15}|Template_Integration\\Template_Integration.csproj|solutionrelative:template_integration\\views\\admin\\products.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{200E5F0D-B1B3-48D8-9084-EAD465079D15}|Template_Integration\\Template_Integration.csproj|e:\\code criteria\\asp .net\\template_integration\\template_integration\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{200E5F0D-B1B3-48D8-9084-EAD465079D15}|Template_Integration\\Template_Integration.csproj|solutionrelative:template_integration\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{200E5F0D-B1B3-48D8-9084-EAD465079D15}|Template_Integration\\Template_Integration.csproj|e:\\code criteria\\asp .net\\template_integration\\template_integration\\views\\admin\\addproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{200E5F0D-B1B3-48D8-9084-EAD465079D15}|Template_Integration\\Template_Integration.csproj|solutionrelative:template_integration\\views\\admin\\addproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{200E5F0D-B1B3-48D8-9084-EAD465079D15}|Template_Integration\\Template_Integration.csproj|e:\\code criteria\\asp .net\\template_integration\\template_integration\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -25,10 +29,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{200E5F0D-B1B3-48D8-9084-EAD465079D15}|Template_Integration\\Template_Integration.csproj|e:\\code criteria\\asp .net\\template_integration\\template_integration\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{200E5F0D-B1B3-48D8-9084-EAD465079D15}|Template_Integration\\Template_Integration.csproj|solutionrelative:template_integration\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{200E5F0D-B1B3-48D8-9084-EAD465079D15}|Template_Integration\\Template_Integration.csproj|e:\\code criteria\\asp .net\\template_integration\\template_integration\\views\\admin\\products.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{200E5F0D-B1B3-48D8-9084-EAD465079D15}|Template_Integration\\Template_Integration.csproj|solutionrelative:template_integration\\views\\admin\\products.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{200E5F0D-B1B3-48D8-9084-EAD465079D15}|Template_Integration\\Template_Integration.csproj|e:\\code criteria\\asp .net\\template_integration\\template_integration\\models\\categories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -114,7 +114,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
@@ -142,19 +142,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "Products.cshtml",
               "DocumentMoniker": "E:\\CODE CRITERIA\\ASP .NET\\Template_Integration\\Template_Integration\\Views\\Admin\\Products.cshtml",
               "RelativeDocumentMoniker": "Template_Integration\\Views\\Admin\\Products.cshtml",
               "ToolTip": "E:\\CODE CRITERIA\\ASP .NET\\Template_Integration\\Template_Integration\\Views\\Admin\\Products.cshtml",
               "RelativeToolTip": "Template_Integration\\Views\\Admin\\Products.cshtml",
-              "ViewState": "AgIAABcAAAAAAAAAAAAAAD4AAABSAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAC8AAAALAQAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-19T11:03:42.216Z"
+              "WhenOpened": "2025-03-19T11:03:42.216Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "AddProduct.cshtml",
               "DocumentMoniker": "E:\\CODE CRITERIA\\ASP .NET\\Template_Integration\\Template_Integration\\Views\\Admin\\AddProduct.cshtml",
               "RelativeDocumentMoniker": "Template_Integration\\Views\\Admin\\AddProduct.cshtml",
@@ -162,8 +163,7 @@
               "RelativeToolTip": "Template_Integration\\Views\\Admin\\AddProduct.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-19T11:04:14.772Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-19T11:04:14.772Z"
             },
             {
               "$type": "Document",
@@ -185,14 +185,14 @@
               "RelativeDocumentMoniker": "Template_Integration\\Controllers\\AdminController.cs",
               "ToolTip": "E:\\CODE CRITERIA\\ASP .NET\\Template_Integration\\Template_Integration\\Controllers\\AdminController.cs",
               "RelativeToolTip": "Template_Integration\\Controllers\\AdminController.cs",
-              "ViewState": "AgIAAEsAAAAAAAAAAAAAAFoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAAAEsAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-14T14:53:32.853Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Product.cs",
               "DocumentMoniker": "E:\\CODE CRITERIA\\ASP .NET\\Template_Integration\\Template_Integration\\Models\\Product.cs",
               "RelativeDocumentMoniker": "Template_Integration\\Models\\Product.cs",
@@ -200,12 +200,11 @@
               "RelativeToolTip": "Template_Integration\\Models\\Product.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-29T06:53:32.612Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-29T06:53:32.612Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "HomeController.cs",
               "DocumentMoniker": "E:\\CODE CRITERIA\\ASP .NET\\Template_Integration\\Template_Integration\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Template_Integration\\Controllers\\HomeController.cs",
@@ -213,12 +212,11 @@
               "RelativeToolTip": "Template_Integration\\Controllers\\HomeController.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAAAuwCEAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-14T12:03:20.973Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-14T12:03:20.973Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "AddCategory.cshtml",
               "DocumentMoniker": "E:\\CODE CRITERIA\\ASP .NET\\Template_Integration\\Template_Integration\\Views\\Admin\\AddCategory.cshtml",
               "RelativeDocumentMoniker": "Template_Integration\\Views\\Admin\\AddCategory.cshtml",
@@ -226,12 +224,11 @@
               "RelativeToolTip": "Template_Integration\\Views\\Admin\\AddCategory.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-19T08:16:45.688Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-19T08:16:45.688Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "E:\\CODE CRITERIA\\ASP .NET\\Template_Integration\\Template_Integration\\Models\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "Template_Integration\\Models\\ApplicationDbContext.cs",

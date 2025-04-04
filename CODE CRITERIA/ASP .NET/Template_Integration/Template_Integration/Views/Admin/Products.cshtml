@@ -4,6 +4,8 @@
     Layout = "~/Views/Shared/_AdminLayout.cshtml";
 }
 
+@model List<Product>;
+
 <main id="main" class="main">
 
     <div class="pagetitle mb-5">
@@ -33,46 +35,19 @@
                                 </tr>
                             </thead>
                             <tbody>
-                                <tr>
-                                    <td>1001</td>
-                                    <td>Realme</td>
-                                    <td>This is Mobile</td>
-                                    <td>30000</td>
-                                    <td>1</td>
-                                    <td>Mobiles</td>
-                                    <td><img src="~/images/couch.png" width="50px" height="50px" /></td>
-                                    <td><a class="btn btn-warning" asp-controller="Admin" asp-action="UpdateProduct">Edit</a> <a class="btn btn-danger" asp-controller="Admin" asp-action="DeleteProduct">Delete</a></td>
-                                </tr>
-                                <tr>
-                                    <td>1002</td>
-                                    <td>HP</td>
-                                    <td>This is Laptop</td>
-                                    <td>50000</td>
-                                    <td>4</td>
-                                    <td>Laptop</td>
-                                    <td><img src="~/images/bowl-3.png" width="50px" height="50px" /></td>
-                                    <td><a class="btn btn-warning" asp-controller="Admin" asp-action="UpdateProduct">Edit</a> <a class="btn btn-danger" asp-controller="Admin" asp-action="DeleteProduct">Delete</a></td>
-                                </tr>
-                                <tr>
-                                    <td>1003</td>
-                                    <td>Audionic</td>
-                                    <td>This is Headphones</td>
-                                    <td>9000</td>
-                                    <td>8</td>
-                                    <td>Headphones</td>
-                                    <td><img src="~/images/bowl-2.png" width="50px" height="50px" /></td>
-                                    <td><a class="btn btn-warning" asp-controller="Admin" asp-action="UpdateProduct">Edit</a> <a class="btn btn-danger" asp-controller="Admin" asp-action="DeleteProduct">Delete</a></td>
-                                </tr>
-                                <tr>
-                                    <td>1004</td>
-                                    <td>Lenovo</td>
-                                    <td>This is Laptop</td>
-                                    <td>70000</td>
-                                    <td>2</td>
-                                    <td>Laptop</td>
-                                    <td><img src="~/images/product-3.png" width="50px" height="50px" /></td>
-                                    <td><a class="btn btn-warning" asp-controller="Admin" asp-action="UpdateProduct">Edit</a> <a class="btn btn-danger" asp-controller="Admin" asp-action="DeleteProduct">Delete</a></td>
-                                </tr>
+                                @foreach (var item in Model)
+                                {
+                                    <tr>
+                                        <td>@item.ProductId</td>
+                                        <td>@item.ProductName</td>
+                                        <td>@item.ProductDesc</td>
+                                        <td>@item.ProductPrice</td>
+                                        <td>@item.ProductQty</td>
+                                        <td>@item.CategoryId</td>
+                                        <td><img src="~/Uploads/Products/@item.ProductImage" width="50px" height="50px" /></td>
+                                        <td><a class="btn btn-warning" asp-controller="Admin" asp-action="UpdateProduct" asp-route-id="@item.ProductId">Edit</a> <a class="btn btn-danger" asp-controller="Admin" asp-action="DeleteProduct" asp-route-id="@item.ProductId">Delete</a></td>
+                                    </tr>
+                                }
                             </tbody>
                         </table>
                         <!-- End Table with stripped rows -->

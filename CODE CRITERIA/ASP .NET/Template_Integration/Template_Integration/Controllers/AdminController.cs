@@ -73,9 +73,10 @@ namespace Template_Integration.Controllers
 
         //Product Section
 
-        public IActionResult Products()
+        public IActionResult Products(Product pro)
         {
-            return View();
+            var product = _Context.products.ToList();
+            return View(product);
         }
 
         public IActionResult AddProduct()
