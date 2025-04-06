@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
@@ -75,7 +76,7 @@ namespace Template_Integration.Controllers
 
         public IActionResult Products(Product pro)
         {
-            var product = _Context.products.ToList();
+            var product = _Context.products.Include(res=>res.Category).ToList();
             return View(product);
         }
 
@@ -115,8 +116,53 @@ namespace Template_Integration.Controllers
             return View();
         }
 
-        public IActionResult UpdateProduct()
+        public IActionResult UpdateProduct(int id)
         {
+            TempData["categories"] = _Context.Categories.ToList();
+
+            var product = _Context.products.Find(id);
+            HttpContext.Session.SetString("priviousImage", product.ProductImage);
+
+            return View(product);
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> UpdateProduct(Product pro, IFormFile proimage)
+        {
+            if (proimage != null)
+            {
+                var rootPath = _root.WebRootPath;
+                var location = Path.Combine(rootPath, "Uploads", "Products");
+
+                if (!Directory.Exists(location))
+                {
+                    Directory.CreateDirectory(location);
+                }
+
+                var priviousImage = HttpContext.Session.GetString("priviousImage");
+
+                var oldFileLocation = Path.Combine(location, priviousImage!);
+
+                if (System.IO.File.Exists(oldFileLocation))
+                {
+                    System.IO.File.Delete(oldFileLocation);
+                }
+
+                var newFileLocation = Path.Combine(location, proimage.FileName);
+
+                using (var stream = new FileStream(newFileLocation, FileMode.Create))
+                {
+                    await proimage.CopyToAsync(stream);
+                }
+
+                pro.ProductImage = proimage.FileName;
+            }
+
+            var priviouseImage = HttpContext.Session.GetString("priviousImage");
+            pro.ProductImage = priviouseImage!;
+
+            _Context.Entry(pro).State = EntityState.Modified;
+            _Context.SaveChanges();
             return View();
         }
 

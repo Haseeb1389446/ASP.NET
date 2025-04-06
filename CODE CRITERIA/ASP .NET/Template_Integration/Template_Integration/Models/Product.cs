@@ -18,5 +18,7 @@ namespace Template_Integration.Models
         public int CategoryId { get; set; }
 
         public string ProductImage { get; set; }
+
+        public Categories Category { get; set; }
     }
 }

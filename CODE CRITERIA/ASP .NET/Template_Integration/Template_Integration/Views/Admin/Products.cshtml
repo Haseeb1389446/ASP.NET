@@ -43,7 +43,7 @@
                                         <td>@item.ProductDesc</td>
                                         <td>@item.ProductPrice</td>
                                         <td>@item.ProductQty</td>
-                                        <td>@item.CategoryId</td>
+                                        <td>@item.Category.CategoryName</td>
                                         <td><img src="~/Uploads/Products/@item.ProductImage" width="50px" height="50px" /></td>
                                         <td><a class="btn btn-warning" asp-controller="Admin" asp-action="UpdateProduct" asp-route-id="@item.ProductId">Edit</a> <a class="btn btn-danger" asp-controller="Admin" asp-action="DeleteProduct" asp-route-id="@item.ProductId">Delete</a></td>
                                     </tr>
