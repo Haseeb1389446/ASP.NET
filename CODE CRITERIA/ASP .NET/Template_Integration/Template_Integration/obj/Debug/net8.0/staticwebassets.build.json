@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "h+JV3+jz6Ov4R7hkBKvNQoMi90fTNJN33F73+Kal8t4=",
+  "Hash": "/Z/gwvzk6SHbKAGPbnJSFsgZlN6NWiOvoJIHzWRNCGs=",
   "Source": "Template_Integration",
   "BasePath": "_content/Template_Integration",
   "Mode": "Default",
@@ -11436,12 +11436,12 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\eaa2a9d5-d52f-41b2-81cd-146926834767.jfif"
     },
     {
-      "Identity": "E:\\CODE CRITERIA\\ASP .NET\\Template_Integration\\Template_Integration\\wwwroot\\Uploads\\Products\\Lenovo-ThinkPad-2-600x600-1.jpg",
+      "Identity": "E:\\CODE CRITERIA\\ASP .NET\\Template_Integration\\Template_Integration\\wwwroot\\Uploads\\Products\\laptop.png",
       "SourceId": "Template_Integration",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\CODE CRITERIA\\ASP .NET\\Template_Integration\\Template_Integration\\wwwroot\\",
       "BasePath": "_content/Template_Integration",
-      "RelativePath": "Uploads/Products/Lenovo-ThinkPad-2-600x600-1.jpg",
+      "RelativePath": "Uploads/Products/laptop.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -11452,7 +11452,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Uploads\\Products\\Lenovo-ThinkPad-2-600x600-1.jpg"
+      "OriginalItemSpec": "wwwroot\\Uploads\\Products\\laptop.png"
     },
     {
       "Identity": "E:\\CODE CRITERIA\\ASP .NET\\Template_Integration\\Template_Integration\\wwwroot\\Uploads\\Products\\proimage",

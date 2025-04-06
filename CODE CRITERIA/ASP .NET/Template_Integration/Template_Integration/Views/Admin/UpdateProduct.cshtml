@@ -21,6 +21,7 @@
 
                         <!-- Vertical Form -->
                         <form class="row g-3" asp-controller="Admin" asp-action="UpdateProduct" method="post" enctype="multipart/form-data">
+                                <input hidden type="text" asp-for="ProductId" name="ProductId" class="form-control" id="Name">
                             <div class="col-12">
                                 <label for="Name" class="form-label">Name</label>
                                 <input type="text" asp-for="ProductName" class="form-control" id="Name">
@@ -40,9 +41,12 @@
                             <div class="col-12">
                                 <label for="Category" class="form-label">Category</label>
                                 <select asp-for="CategoryId" class="form-control">
-                                    @foreach (var item in TempData["categories"] as List<Categories>)
+                                    @if (TempData["categories"] is List<Categories> Category)
                                     {
-                                        <option value="@item.CategoryId">@item.CategoryName</option>
+                                        foreach (var item in Category)
+                                        {
+                                            <option value="@item.CategoryId">@item.CategoryName</option>
+                                        }
                                     }
                                 </select>
                             </div>

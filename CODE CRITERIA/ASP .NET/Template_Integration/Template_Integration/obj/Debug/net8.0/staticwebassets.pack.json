@@ -5,16 +5,16 @@
       "PackagePath": "staticwebassets\\Template_Integration.bundle.scp.css"
     },
     {
-      "Id": "E:\\CODE CRITERIA\\ASP .NET\\Template_Integration\\Template_Integration\\wwwroot\\Uploads\\Products\\Lenovo-ThinkPad-2-600x600-1.jpg",
-      "PackagePath": "staticwebassets\\Uploads\\Products\\Lenovo-ThinkPad-2-600x600-1.jpg"
-    },
-    {
       "Id": "E:\\CODE CRITERIA\\ASP .NET\\Template_Integration\\Template_Integration\\wwwroot\\Uploads\\Products\\desktop-computer.jpg",
       "PackagePath": "staticwebassets\\Uploads\\Products\\desktop-computer.jpg"
     },
     {
       "Id": "E:\\CODE CRITERIA\\ASP .NET\\Template_Integration\\Template_Integration\\wwwroot\\Uploads\\Products\\eaa2a9d5-d52f-41b2-81cd-146926834767.jfif",
       "PackagePath": "staticwebassets\\Uploads\\Products\\eaa2a9d5-d52f-41b2-81cd-146926834767.jfif"
+    },
+    {
+      "Id": "E:\\CODE CRITERIA\\ASP .NET\\Template_Integration\\Template_Integration\\wwwroot\\Uploads\\Products\\laptop.png",
+      "PackagePath": "staticwebassets\\Uploads\\Products\\laptop.png"
     },
     {
       "Id": "E:\\CODE CRITERIA\\ASP .NET\\Template_Integration\\Template_Integration\\wwwroot\\Uploads\\Products\\proimage",

@@ -63,7 +63,7 @@ namespace Template_Integration.Controllers
         public async Task<IActionResult> RemoveCategory(int id)
         {
             var categories = await _Context.Categories.FindAsync(id);
-            _Context.Categories.Remove(categories);
+            _Context.Categories.Remove(categories!);
             _Context.SaveChanges();
 
             return RedirectToAction("Categories");
@@ -109,7 +109,7 @@ namespace Template_Integration.Controllers
                 }
             }
 
-            pro.ProductImage = proimage.FileName;
+            pro.ProductImage = proimage!.FileName;
             await _Context.products.AddAsync(pro);
             await _Context.SaveChangesAsync();
 
@@ -121,7 +121,7 @@ namespace Template_Integration.Controllers
             TempData["categories"] = _Context.Categories.ToList();
 
             var product = _Context.products.Find(id);
-            HttpContext.Session.SetString("priviousImage", product.ProductImage);
+            HttpContext.Session.SetString("priviousImage", product!.ProductImage);
 
             return View(product);
         }
@@ -129,6 +129,8 @@ namespace Template_Integration.Controllers
         [HttpPost]
         public async Task<IActionResult> UpdateProduct(Product pro, IFormFile proimage)
         {
+            TempData["categories"] = _Context.Categories.ToList();
+
             if (proimage != null)
             {
                 var rootPath = _root.WebRootPath;
@@ -156,19 +158,37 @@ namespace Template_Integration.Controllers
                 }
 
                 pro.ProductImage = proimage.FileName;
+
+                _Context.Entry(pro).State = EntityState.Modified;
+                _Context.SaveChanges();
+                return RedirectToAction("UpdateProduct", new { id = pro.ProductId });
             }
+            else
+            {
+                var priviouseImage = HttpContext.Session.GetString("priviousImage");
+                pro.ProductImage = priviouseImage!;
 
-            var priviouseImage = HttpContext.Session.GetString("priviousImage");
-            pro.ProductImage = priviouseImage!;
-
-            _Context.Entry(pro).State = EntityState.Modified;
-            _Context.SaveChanges();
-            return View();
+                _Context.Entry(pro).State = EntityState.Modified;
+                _Context.SaveChanges();
+                return RedirectToAction("UpdateProduct");
+            }
         }
 
-        public IActionResult RemoveProduct()
+        public IActionResult RemoveProduct(int id)
         {
-            return View();
+            var product = _Context.products.Find(id);
+            var location = Path.Combine(_root.WebRootPath, "Uploads", "Products");
+            var fileLocation = Path.Combine(location, product!.ProductImage);
+
+            if (System.IO.File.Exists(fileLocation))
+            {
+                System.IO.File.Delete(fileLocation);
+            }
+
+            _Context.products.Remove(product);
+            _Context.SaveChanges();
+
+            return RedirectToAction("Products");
         }
 
         //Product Section End
