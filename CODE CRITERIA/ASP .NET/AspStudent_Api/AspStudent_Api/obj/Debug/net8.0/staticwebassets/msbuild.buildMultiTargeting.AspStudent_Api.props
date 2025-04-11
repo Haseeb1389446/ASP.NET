@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\AspStudent_Api.props" />
+</Project>

@@ -23,9 +23,22 @@ namespace ApiFirst_Task.Controllers
                 $"User Contact Is {Contact} \n";
         }
 
-        public string GetUserName([FromForm] string Name)
-        {
-            return $"User Name Is {Name}";
-        }
+
+        // Example 2
+
+        // [HttpPost]
+        // public string GetUserName([FromForm] string Name)
+        // {
+        //     return $"User Name Is {Name}";
+        // }
+
+
+        // Example 3
+
+        // [HttpGet]
+        // public List<string> GetUserArray()
+        // {
+        //     return ["User Name Is: Haseeb", "User Age Is: 15", "User Email Is: haseeb@gmail.com", "User Name Is: +92 33 3333333"];
+        // }
     }
 }

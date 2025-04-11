@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\CODE CRITERIA\\ASP .NET\\AspStudent_Api\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{578881D3-2156-44E4-88B0-55B6D5D75ADE}|AspStudent_Api\\AspStudent_Api.csproj|e:\\code criteria\\asp .net\\aspstudent_api\\aspstudent_api\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{578881D3-2156-44E4-88B0-55B6D5D75ADE}|AspStudent_Api\\AspStudent_Api.csproj|solutionrelative:aspstudent_api\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{578881D3-2156-44E4-88B0-55B6D5D75ADE}|AspStudent_Api\\AspStudent_Api.csproj|e:\\code criteria\\asp .net\\aspstudent_api\\aspstudent_api\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{578881D3-2156-44E4-88B0-55B6D5D75ADE}|AspStudent_Api\\AspStudent_Api.csproj|solutionrelative:aspstudent_api\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Student.cs",
+              "DocumentMoniker": "E:\\CODE CRITERIA\\ASP .NET\\AspStudent_Api\\AspStudent_Api\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "AspStudent_Api\\Models\\Student.cs",
+              "ToolTip": "E:\\CODE CRITERIA\\ASP .NET\\AspStudent_Api\\AspStudent_Api\\Models\\Student.cs",
+              "RelativeToolTip": "AspStudent_Api\\Models\\Student.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T04:34:14.736Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "E:\\CODE CRITERIA\\ASP .NET\\AspStudent_Api\\AspStudent_Api\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "AspStudent_Api\\Controllers\\StudentController.cs",
+              "ToolTip": "E:\\CODE CRITERIA\\ASP .NET\\AspStudent_Api\\AspStudent_Api\\Controllers\\StudentController.cs*",
+              "RelativeToolTip": "AspStudent_Api\\Controllers\\StudentController.cs*",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAADIAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T03:24:29.8Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
