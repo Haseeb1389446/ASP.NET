@@ -2,6 +2,7 @@
 using Api_Crud.Models.Data;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace Api_Crud.Controllers
 {
@@ -17,19 +18,31 @@ namespace Api_Crud.Controllers
         }
 
         [HttpGet]
-        public List<Student> GetStudents()
+        public async Task<ActionResult<List<Student>>> GetStudents()
         {
-            return _context.students.ToList();
+            var std = await _context.students.ToListAsync();
+            return Ok(std);
         }
 
         [HttpPost]
-        public Student AddStudents([FromForm] Student std)
+        public async Task<ActionResult<Student>> AddStudents([FromForm] Student std)
         {
-            _context.students.Add(std);
-            _context.SaveChanges();
-            return std;
+            await _context.students.AddAsync(std);
+            await _context.SaveChangesAsync();
+            return Ok(std);
         }
 
+        [HttpPut("id")]
+        public async Task<ActionResult<Student>> UpdateStudents([FromForm] Student std, int id)
+        {
+            if(id != std.StudentId)
+            {
+                return BadRequest();
+            }
 
+            _context.Entry(std).State = EntityState.Modified;
+            await _context.SaveChangesAsync();
+            return Ok(std);
+        }
     }
 }

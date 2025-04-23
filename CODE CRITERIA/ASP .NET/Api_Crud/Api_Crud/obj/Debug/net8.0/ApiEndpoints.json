@@ -59,5 +59,51 @@
         "StatusCode": 200
       }
     ]
+  },
+  {
+    "ContainingType": "Api_Crud.Controllers.StudentController",
+    "Method": "UpdateStudents",
+    "RelativePath": "api/Student/id",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "StudentId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "StudentName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "StudentClass",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "StudentSection",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Api_Crud.Models.Student",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
   }
 ]
