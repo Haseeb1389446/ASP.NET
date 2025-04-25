@@ -44,5 +44,14 @@ namespace Api_Crud.Controllers
             await _context.SaveChangesAsync();
             return Ok(std);
         }
+
+        [HttpDelete]
+        public async Task<string> DeleteStudents(int id)
+        {
+            Student std = await _context.students.FindAsync(id) ?? new();
+            _context.students.Remove(std);
+            await _context.SaveChangesAsync();
+            return "Student Removed Successfully";
+        }
     }
 }
