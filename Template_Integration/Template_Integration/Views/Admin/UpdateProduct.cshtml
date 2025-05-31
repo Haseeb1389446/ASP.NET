@@ -1,0 +1,73 @@
+﻿
+@{
+    ViewData["Title"] = "UpdateProduct";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+@model Product;
+
+<main id="main" class="main">
+
+    <div class="pagetitle mb-5">
+        <h1>Update Product</h1>
+    </div><!-- End Page Title -->
+    <section class="section">
+        <div class="row">
+            <div class="col-lg-6 mx-auto">
+
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title text-center mb-4">Update Product</h5>
+
+                        <!-- Vertical Form -->
+                        <form class="row g-3" asp-controller="Admin" asp-action="UpdateProduct" method="post" enctype="multipart/form-data">
+                                <input hidden type="text" asp-for="ProductId" name="ProductId" class="form-control" id="Name">
+                            <div class="col-12">
+                                <label for="Name" class="form-label">Name</label>
+                                <input type="text" asp-for="ProductName" class="form-control" id="Name">
+                            </div>
+                            <div class="col-12">
+                                <label for="Desc" class="form-label">Description</label>
+                                <input type="text" asp-for="ProductDesc" class="form-control" id="Desc">
+                            </div>
+                            <div class="col-12">
+                                <label for="Price" class="form-label">Price</label>
+                                <input type="text" asp-for="ProductPrice" class="form-control" id="Price">
+                            </div>
+                            <div class="col-12">
+                                <label for="qty" class="form-label">Quantity</label>
+                                <input type="text" asp-for="ProductQty" class="form-control" id="qty">
+                            </div>
+                            <div class="col-12">
+                                <label for="Category" class="form-label">Category</label>
+                                <select asp-for="CategoryId" class="form-control">
+                                    @if (TempData["categories"] is List<Categories> Category)
+                                    {
+                                        foreach (var item in Category)
+                                        {
+                                            <option value="@item.CategoryId">@item.CategoryName</option>
+                                        }
+                                    }
+                                </select>
+                            </div>
+                            <div class="col-12 d-flex flex-column align-items-center justify-content-center">
+                                <label for="file" class="form-label">Current Image</label>
+                                <img src="~/uploads/products/@Model.ProductImage" alt="Previuse Image" height="150" width="150" class="rounded" />
+                            </div>
+                            <div class="col-12">
+                                <label for="file" class="form-label btn btn-info w-100">Product Image</label>
+                                <input hidden type="file" name="proimage" class="form-control" id="file">
+                            </div>
+                            <div class="text-center">
+                                <button type="submit" class="btn btn-primary d-block">Update</button>
+                            </div>
+                        </form><!-- Vertical Form -->
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+</main><!-- End #main -->

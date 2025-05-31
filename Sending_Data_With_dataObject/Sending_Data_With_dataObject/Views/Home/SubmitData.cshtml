@@ -1,0 +1,20 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+<h2>Form Submition</h2>
+
+<form asp-controller="Home" asp-action="SubmitData" method="post">
+    <input placeholder="Enter Your Name" name="userName" />
+    <input placeholder="Enter Your Age" name="userAge" />
+    <input placeholder="Enter Your Email" name="userEmail" />
+    <input type="submit" />
+</form>
+
+<br />
+
+@ViewData["userName"] <br />
+@ViewData["userAge"] <br />
+@ViewData["userEmail"] <br />

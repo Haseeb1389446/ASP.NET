@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\CODE CRITERIA\\ASP .NET\\ApiFirst_Task\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0892EC7A-5E50-47B4-B51A-FC078CA2F269}|ApiFirst_Task\\ApiFirst_Task.csproj|e:\\code criteria\\asp .net\\apifirst_task\\apifirst_task\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0892EC7A-5E50-47B4-B51A-FC078CA2F269}|ApiFirst_Task\\ApiFirst_Task.csproj|solutionrelative:apifirst_task\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "E:\\CODE CRITERIA\\ASP .NET\\ApiFirst_Task\\ApiFirst_Task\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "ApiFirst_Task\\Controllers\\UserController.cs",
+              "ToolTip": "E:\\CODE CRITERIA\\ASP .NET\\ApiFirst_Task\\ApiFirst_Task\\Controllers\\UserController.cs*",
+              "RelativeToolTip": "ApiFirst_Task\\Controllers\\UserController.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T04:19:03.403Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

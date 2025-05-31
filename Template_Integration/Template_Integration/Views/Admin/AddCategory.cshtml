@@ -1,0 +1,41 @@
+﻿
+@{
+    ViewData["Title"] = "AddCategory";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+@model Categories;
+
+<main id="main" class="main">
+
+    <div class="pagetitle mb-5">
+        <h1>Add Category</h1>
+    </div><!-- End Page Title -->
+    <section class="section">
+        <div class="row">
+            <div class="col-lg-6 mx-auto">
+
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title text-center mb-4">Add Category</h5>
+
+                        <!-- Vertical Form -->
+                        <form class="row g-3" asp-controller="Admin" asp-action="AddCategory" method="post">
+                            <div class="col-12">
+                                <label for="Category" class="form-label">Category</label>
+                                <input type="text" asp-for="CategoryName" class="form-control" id="Category">
+                            </div>
+                            <div class="text-center">
+                                <button type="submit" class="btn btn-primary d-block">Add</button>
+                            </div>
+                        </form><!-- Vertical Form -->
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+</main><!-- End #main -->
+

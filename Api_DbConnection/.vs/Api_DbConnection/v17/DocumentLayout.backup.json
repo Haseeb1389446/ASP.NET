@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\CODE CRITERIA\\ASP .NET\\Api_DbConnection\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9060542B-6A95-4C91-BB31-FA13A07A96D8}|Api_DbConnection\\Api_DbConnection.csproj|e:\\code criteria\\asp .net\\api_dbconnection\\api_dbconnection\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9060542B-6A95-4C91-BB31-FA13A07A96D8}|Api_DbConnection\\Api_DbConnection.csproj|solutionrelative:api_dbconnection\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\CODE CRITERIA\\ASP .NET\\Api_DbConnection\\Api_DbConnection\\Migrations\\20250413114144_init101.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Api_DbConnection\\Migrations\\20250413114144_init101.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9060542B-6A95-4C91-BB31-FA13A07A96D8}|Api_DbConnection\\Api_DbConnection.csproj|e:\\code criteria\\asp .net\\api_dbconnection\\api_dbconnection\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9060542B-6A95-4C91-BB31-FA13A07A96D8}|Api_DbConnection\\Api_DbConnection.csproj|solutionrelative:api_dbconnection\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9060542B-6A95-4C91-BB31-FA13A07A96D8}|Api_DbConnection\\Api_DbConnection.csproj|e:\\code criteria\\asp .net\\api_dbconnection\\api_dbconnection\\controllers\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9060542B-6A95-4C91-BB31-FA13A07A96D8}|Api_DbConnection\\Api_DbConnection.csproj|solutionrelative:api_dbconnection\\controllers\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9060542B-6A95-4C91-BB31-FA13A07A96D8}|Api_DbConnection\\Api_DbConnection.csproj|e:\\code criteria\\asp .net\\api_dbconnection\\api_dbconnection\\controllers\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9060542B-6A95-4C91-BB31-FA13A07A96D8}|Api_DbConnection\\Api_DbConnection.csproj|solutionrelative:api_dbconnection\\controllers\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "20250413114144_init101.cs",
+              "DocumentMoniker": "E:\\CODE CRITERIA\\ASP .NET\\Api_DbConnection\\Api_DbConnection\\Migrations\\20250413114144_init101.cs",
+              "RelativeDocumentMoniker": "Api_DbConnection\\Migrations\\20250413114144_init101.cs",
+              "ToolTip": "E:\\CODE CRITERIA\\ASP .NET\\Api_DbConnection\\Api_DbConnection\\Migrations\\20250413114144_init101.cs",
+              "RelativeToolTip": "Api_DbConnection\\Migrations\\20250413114144_init101.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T11:41:44.511Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\CODE CRITERIA\\ASP .NET\\Api_DbConnection\\Api_DbConnection\\Program.cs",
+              "RelativeDocumentMoniker": "Api_DbConnection\\Program.cs",
+              "ToolTip": "E:\\CODE CRITERIA\\ASP .NET\\Api_DbConnection\\Api_DbConnection\\Program.cs",
+              "RelativeToolTip": "Api_DbConnection\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T11:38:57.784Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "E:\\CODE CRITERIA\\ASP .NET\\Api_DbConnection\\Api_DbConnection\\Controllers\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Api_DbConnection\\Controllers\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "E:\\CODE CRITERIA\\ASP .NET\\Api_DbConnection\\Api_DbConnection\\Controllers\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Api_DbConnection\\Controllers\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T11:33:39.072Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\CODE CRITERIA\\ASP .NET\\Api_DbConnection\\Api_DbConnection\\appsettings.json",
+              "RelativeDocumentMoniker": "Api_DbConnection\\appsettings.json",
+              "ToolTip": "E:\\CODE CRITERIA\\ASP .NET\\Api_DbConnection\\Api_DbConnection\\appsettings.json",
+              "RelativeToolTip": "Api_DbConnection\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-13T11:29:51.394Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Student.cs",
+              "DocumentMoniker": "E:\\CODE CRITERIA\\ASP .NET\\Api_DbConnection\\Api_DbConnection\\Controllers\\Student.cs",
+              "RelativeDocumentMoniker": "Api_DbConnection\\Controllers\\Student.cs",
+              "ToolTip": "E:\\CODE CRITERIA\\ASP .NET\\Api_DbConnection\\Api_DbConnection\\Controllers\\Student.cs",
+              "RelativeToolTip": "Api_DbConnection\\Controllers\\Student.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T10:46:40.204Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

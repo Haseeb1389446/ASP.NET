@@ -1,0 +1,62 @@
+﻿
+@{
+    ViewData["Title"] = "Products";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+@model List<Product>;
+
+<main id="main" class="main">
+
+    <div class="pagetitle mb-5">
+        <h1>Products</h1>
+    </div><!-- End Page Title -->
+
+    <section class="section">
+        <div class="row">
+            <div class="col-lg-12">
+
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Products</h5>
+
+                        <!-- Table with stripped rows -->
+                        <table class="table datatable">
+                            <thead>
+                                <tr>
+                                    <th>Id</th>
+                                    <th>Name</th>
+                                    <th>Desc</th>
+                                    <th>Price</th>
+                                    <th>Qty</th>
+                                    <th>Category</th>
+                                    <th>Product Image</th>
+                                    <th>Actions</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var item in Model)
+                                {
+                                    <tr>
+                                        <td>@item.ProductId</td>
+                                        <td>@item.ProductName</td>
+                                        <td>@item.ProductDesc</td>
+                                        <td>@item.ProductPrice</td>
+                                        <td>@item.ProductQty</td>
+                                        <td>@item.Category.CategoryName</td>
+                                        <td><img src="~/Uploads/Products/@item.ProductImage" width="50px" height="50px" /></td>
+                                        <td><a class="btn btn-warning" asp-controller="Admin" asp-action="UpdateProduct" asp-route-id="@item.ProductId">Edit</a> <a class="btn btn-danger" asp-controller="Admin" asp-action="RemoveProduct" asp-route-id="@item.ProductId">Delete</a></td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                        <!-- End Table with stripped rows -->
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+</main><!-- End #main -->
